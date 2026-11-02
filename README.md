@@ -4,8 +4,10 @@ Repositori ini berisi rangkaian praktikum terbimbing, pengujian keamanan, serta 
 
 ## Traceability Matrix & Logbook Pengujian Praktikum
 
+## Traceability Matrix & Logbook Pengujian Praktikum
+
 | ID Uji | Fitur / Operasi | Target Endpoint URL | HTTP Method | Skenario Pengujian | Hasil yang Diharapkan | Status | Bukti Tangkapan Layar |
-| :---: | :--- | :--- | :---: | :--- | :--- | :---: | :--- |
+| :---: | :--- | :--- | :---: | :--- | :--- | :---: | :---: |
 | **TC-01** | Koneksi Pool | `App Startup` | - | Server dijalankan pertama kali | Terhubung ke MySQL Pool tanpa error | Pass | <img src="docs/screenshots/01-db-pool-connection.png" width="150"> |
 | **TC-02** | Read (All) | `/produk` | GET | Akses halaman daftar produk | Menampilkan seluruh record tabel MySQL ke antarmuka EJS | Pass | <img src="docs/screenshots/02-read-select-render.png" width="150"> |
 | **TC-03** | Create | `/produk/tambah` | POST | Submit formulir produk baru | Data tersimpan di DB, DevTools mencatat 302 Redirect | Pass | <img src="docs/screenshots/03-create-insert-prg.png" width="150"> |
